@@ -1,0 +1,21 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit; /* box-sizing property is not 
+    inherited, but by setting it to "inherit" it will inherit the box-sizing specified in the body tag */
+}
+
+html { 
+    font-size: 62.5%; /*  10/16 = 0.625 = 62.5%   */
+}
+
+body { 
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    color: white;
+    padding: 3rem;
+    box-sizing: border-box;
+}
